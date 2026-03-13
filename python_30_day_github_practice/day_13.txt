@@ -1,0 +1,14 @@
+Day 13 - Merge Dictionaries
+
+Difficulty: Medium
+
+File to Implement: dictionaries.py
+
+Problem Description: Merge dictionaries and sum common keys.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 13: Implemented Merge Dictionaries
+
+Notes: Write clean functions and handle edge cases.

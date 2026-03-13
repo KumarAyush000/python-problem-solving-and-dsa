@@ -1,0 +1,14 @@
+Day 9 - Even Odd Counter
+
+Difficulty: Easy
+
+File to Implement: arrays.py
+
+Problem Description: Count even and odd numbers in list.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 9: Implemented Even Odd Counter
+
+Notes: Write clean functions and handle edge cases.

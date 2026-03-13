@@ -1,0 +1,15 @@
+Day 23 - Longest Unique Substring
+
+Difficulty: Hard
+
+File to Implement: strings.py
+
+Problem Description: Find longest substring without repeating
+characters.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 23: Implemented Longest Unique Substring
+
+Notes: Write clean functions and handle edge cases.

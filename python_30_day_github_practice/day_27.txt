@@ -1,0 +1,14 @@
+Day 27 - Detect Cycle
+
+Difficulty: Hard
+
+File to Implement: data_structures.py
+
+Problem Description: Detect cycle in linked list.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 27: Implemented Detect Cycle
+
+Notes: Write clean functions and handle edge cases.

@@ -1,0 +1,14 @@
+Day 24 - Mini In Memory Database
+
+Difficulty: Hard
+
+File to Implement: data_structures.py
+
+Problem Description: Create class with insert/update/delete/get.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 24: Implemented Mini In Memory Database
+
+Notes: Write clean functions and handle edge cases.

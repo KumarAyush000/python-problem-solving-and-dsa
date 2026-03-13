@@ -1,0 +1,14 @@
+Day 29 - Streaming Average
+
+Difficulty: Hard
+
+File to Implement: data_structures.py
+
+Problem Description: Maintain running average from stream.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 29: Implemented Streaming Average
+
+Notes: Write clean functions and handle edge cases.

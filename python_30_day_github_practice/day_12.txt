@@ -1,0 +1,14 @@
+Day 12 - Group Anagrams
+
+Difficulty: Medium
+
+File to Implement: strings.py
+
+Problem Description: Group words that are anagrams.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 12: Implemented Group Anagrams
+
+Notes: Write clean functions and handle edge cases.

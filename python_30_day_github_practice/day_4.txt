@@ -1,0 +1,14 @@
+Day 4 - Reverse Words
+
+Difficulty: Easy
+
+File to Implement: strings.py
+
+Problem Description: Reverse word order in a sentence.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 4: Implemented Reverse Words
+
+Notes: Write clean functions and handle edge cases.

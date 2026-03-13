@@ -1,0 +1,14 @@
+Day 10 - Flatten Nested List
+
+Difficulty: Easy
+
+File to Implement: recursion.py
+
+Problem Description: Flatten one-level nested list.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 10: Implemented Flatten Nested List
+
+Notes: Write clean functions and handle edge cases.

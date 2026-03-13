@@ -1,0 +1,14 @@
+Day 2 - Second Largest Number
+
+Difficulty: Easy
+
+File to Implement: arrays.py
+
+Problem Description: Return the second largest number from a list.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 2: Implemented Second Largest Number
+
+Notes: Write clean functions and handle edge cases.

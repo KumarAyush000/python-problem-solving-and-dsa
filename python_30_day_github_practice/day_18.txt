@@ -1,0 +1,14 @@
+Day 18 - Top 3 Frequent Elements
+
+Difficulty: Medium
+
+File to Implement: arrays.py
+
+Problem Description: Return top 3 frequent numbers.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 18: Implemented Top 3 Frequent Elements
+
+Notes: Write clean functions and handle edge cases.

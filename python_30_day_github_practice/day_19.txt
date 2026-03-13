@@ -1,0 +1,14 @@
+Day 19 - Validate Parentheses
+
+Difficulty: Medium
+
+File to Implement: data_structures.py
+
+Problem Description: Check if parentheses are valid.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 19: Implemented Validate Parentheses
+
+Notes: Write clean functions and handle edge cases.

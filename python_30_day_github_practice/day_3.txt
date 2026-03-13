@@ -1,0 +1,14 @@
+Day 3 - Remove Duplicates
+
+Difficulty: Easy
+
+File to Implement: arrays.py
+
+Problem Description: Remove duplicates from list while preserving order.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 3: Implemented Remove Duplicates
+
+Notes: Write clean functions and handle edge cases.

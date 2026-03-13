@@ -1,0 +1,14 @@
+Day 6 - Find Missing Number
+
+Difficulty: Easy
+
+File to Implement: arrays.py
+
+Problem Description: Find missing number from range 1..n.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 6: Implemented Find Missing Number
+
+Notes: Write clean functions and handle edge cases.

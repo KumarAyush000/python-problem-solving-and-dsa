@@ -1,0 +1,14 @@
+Day 7 - Palindrome Check
+
+Difficulty: Easy
+
+File to Implement: strings.py
+
+Problem Description: Check if string is palindrome.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 7: Implemented Palindrome Check
+
+Notes: Write clean functions and handle edge cases.

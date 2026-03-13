@@ -1,0 +1,14 @@
+Day 20 - Log Analyzer
+
+Difficulty: Medium
+
+File to Implement: dictionaries.py
+
+Problem Description: Count INFO/ERROR logs from file.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 20: Implemented Log Analyzer
+
+Notes: Write clean functions and handle edge cases.

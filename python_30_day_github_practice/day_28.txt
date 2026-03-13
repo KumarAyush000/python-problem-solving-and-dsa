@@ -1,0 +1,14 @@
+Day 28 - Log Aggregator
+
+Difficulty: Hard
+
+File to Implement: data_processing.py
+
+Problem Description: Aggregate session times from logs.
+
+Tasks: 1. Implement the function or class. 2. Write a simple test in
+main.py. 3. Commit the solution to GitHub.
+
+Example Commit Message: Day 28: Implemented Log Aggregator
+
+Notes: Write clean functions and handle edge cases.
