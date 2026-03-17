@@ -22,7 +22,16 @@ user_input = StringUtils()
 word = input("Enter the word you want to reverse: ")
 print(user_input.word_reverse(word))
 """
-
+"""
 user_input = DictionaryUtils()
 word = input("Enter the word: ")
 print(user_input.character_frequency(word))
+"""
+"""
+user_input = ArrayUtils()
+numbers = input("Enter the numbers separated by a comma (,): ")
+print(user_input.missing_number(numbers))
+"""
+user_input = ArrayUtils()
+numbers = input("Enter the numbers separated by a comma (,): ")
+print(user_input.missing_number(numbers))

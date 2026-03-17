@@ -21,4 +21,12 @@ class ArrayUtils:
             if i not in unique_list:
                 unique_list.append(i) 
         return(unique_list)
-    
+    #Find missing number from range 1..n.
+    def missing_number(self, numbers):
+        numbers = [int(n) for n in numbers.split(",")]
+        numbers_sum = sum(numbers)
+        n = max(numbers)
+        expected_sum = n * (n + 1) // 2
+        if expected_sum != numbers_sum:
+            return expected_sum - numbers_sum
+        return None
