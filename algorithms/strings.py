@@ -1,4 +1,3 @@
-
 class StringUtils :
     # vowel counter
     def vowel_count(self, word):
@@ -13,7 +12,10 @@ class StringUtils :
         word = word.strip().lower()
         word = word[::-1]
         return word
-
+    #To check if string is palindrome.
+    def palindrome_checker(self, word):
+        word = word.strip().lower()
+        return word == word[::-1]
 
        
 

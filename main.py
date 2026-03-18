@@ -32,6 +32,11 @@ user_input = ArrayUtils()
 numbers = input("Enter the numbers separated by a comma (,): ")
 print(user_input.missing_number(numbers))
 """
+"""
 user_input = ArrayUtils()
 numbers = input("Enter the numbers separated by a comma (,): ")
 print(user_input.missing_number(numbers))
+"""
+user_input = StringUtils()
+word = input("Enter the word to check for palindrome: ")
+print(user_input.palindrome_checker(word))
