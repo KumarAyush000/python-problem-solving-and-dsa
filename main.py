@@ -59,6 +59,11 @@ try:
 except ValueError as e:
     print("Error:",e)
 """
+"""
 user_input = RecursionUtils()
 matrix = input("Enter the elements for the list separated by comma(',') to move to the next nested lsit use('/'): ")
 print(user_input.flatten_list(matrix))
+"""
+user_input = DictionaryUtils()
+paragraph = input("Enter the paragraph : ")
+print(user_input.word_frequency(paragraph))
