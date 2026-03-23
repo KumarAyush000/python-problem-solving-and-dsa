@@ -64,6 +64,12 @@ user_input = RecursionUtils()
 matrix = input("Enter the elements for the list separated by comma(',') to move to the next nested lsit use('/'): ")
 print(user_input.flatten_list(matrix))
 """
+"""
 user_input = DictionaryUtils()
 paragraph = input("Enter the paragraph : ")
 print(user_input.word_frequency(paragraph))
+"""
+user_input = StringUtils()
+word1 = input("Enter the first word to check for anagram: ")
+word2 = input("Enter the second word to check for anagram: ")
+print(f"Anagram: {user_input.anagram_finder(word1, word2)}")
