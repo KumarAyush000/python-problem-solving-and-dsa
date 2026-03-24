@@ -75,3 +75,7 @@ word1 = input("Enter the first word to check for anagram: ")
 word2 = input("Enter the second word to check for anagram: ")
 print(f"Anagram: {user_input.anagram_finder(word1, word2)}")
 """
+merged_dictionary = DictionaryUtils()
+d1 = {'a': 100, 'b': 200, 'c': 300}
+d2 = {'a': 300, 'b': 200, 'd': 400}
+print(merged_dictionary.merge_dictionaries(d1,d2))
