@@ -21,4 +21,28 @@ class StringUtils :
         word1 = word1.strip().lower()
         word2 = word2.strip().lower()
         return sorted(word1) == sorted(word2)
+    #Find first non repeating character.
+    #Approach 1 (Basic): Time complexity :- O(n^2) 
+    # Count takes O(n) ->  Inside a loop O(n^2)
+    # --> "Avoid repeated .count() inside loops"
+    """
+    def first_non_rep_char(self, word: str) -> str | None:
+        word = word.strip().lower()
+        for w in word:
+            if word.count(w) == 1:
+                return w
+        return None
+    """
+    #Approach 2 (Optimized): Time complexity :- O(n)
+    # Using a dictionary
+    def first_non_rep_char(self, word: str) -> str | None:
+        word = word.strip().lower()
+        freq = {}
+        for ch in word:
+            freq[ch] = freq.get(ch, 0) + 1
+        for ch in word:
+            if freq[ch] == 1:
+                return ch
+        return None 
+
 

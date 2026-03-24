@@ -81,3 +81,6 @@ d1 = {'a': 100, 'b': 200, 'c': 300}
 d2 = {'a': 300, 'b': 200, 'd': 400}
 print(merged_dictionary.merge_dictionaries(d1,d2))
 """
+user_input = StringUtils()
+word = input("Enter the word: ")
+print(user_input.first_non_rep_char(word))

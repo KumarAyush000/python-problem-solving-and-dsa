@@ -32,9 +32,11 @@ class Solution:
         return element_freq
 
 """
+Test case 1
 Input: [1, 2, 2, 3]
 Output: {1: 1, 2: 2, 3: 1}
 
+Test case 2
 Input: []
 Output: {}
 """
