@@ -86,6 +86,7 @@ user_input = StringUtils()
 word = input("Enter the word: ")
 print(user_input.first_non_rep_char(word))
 """
+"""
 user_input = DataProcessUtils()
 json_data = [
     {"name": "Anil", "age": 21},
@@ -93,3 +94,7 @@ json_data = [
 ]
 df = user_input.json_dict_to_csv(json_data, "output.csv")
 print(df)
+"""
+user_input = StringUtils()
+sentence = input("Enter the sentence: ")
+print(user_input.longest_word(sentence))

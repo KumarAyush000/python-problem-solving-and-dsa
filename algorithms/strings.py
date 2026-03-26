@@ -43,6 +43,22 @@ class StringUtils :
         for ch in word:
             if freq[ch] == 1:
                 return ch
-        return None 
+        return None
+    #Return longest word in sentence.
+    def longest_word(self, sentence: str) -> str | None:
+        words = [
+            word.strip(" ,.!?/'-+=*&%$#@").lower()
+            for word in sentence.split()
+                ]
+        words = [word for word in words if word]
+        if not words:
+            return None
+        longest = words[0]
+        for word in words:
+            if len(word) > len(longest):
+                longest = word
+
+        return longest
+
 
 
