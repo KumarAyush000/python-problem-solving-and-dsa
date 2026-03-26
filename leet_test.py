@@ -28,7 +28,7 @@ class TestRemoveDuplicates(unittest.TestCase):
             []
         )
 """
-
+"""
 # -------------------------------
 # Tests for countFrequency
 # -------------------------------
@@ -48,7 +48,53 @@ class TestCountFrequency(unittest.TestCase):
             self.obj.countFrequency([]),
             {}
         )
+"""
+# -------------------------------
+# Test for filterEmails
+# -------------------------------
+class TestFilterEmails(unittest.TestCase):
 
+    def setUp(self):
+        self.obj = Solution()
+
+    def test_valid_emails(self):
+        emails = [
+            "test@gmail.com",
+            "hello@yahoo.in",
+            "user.name@domain.org"
+        ]
+        expected = [
+            "test@gmail.com",
+            "hello@yahoo.in",
+            "user.name@domain.org"
+        ]
+        self.assertEqual(self.obj.filterEmails(emails), expected)
+
+    def test_invalid_emails(self):
+        emails = [
+            "invalid-email",
+            "abc@.com",
+            "@gmail.com",
+            "test@gmail",
+            "test@domain.c"   # too short extension
+        ]
+        self.assertEqual(self.obj.filterEmails(emails), [])
+
+    def test_mixed_emails(self):
+        emails = [
+            "test@gmail.com",
+            "invalid-email",
+            "hello@yahoo.in",
+            "abc@.com"
+        ]
+        expected = [
+            "test@gmail.com",
+            "hello@yahoo.in"
+        ]
+        self.assertEqual(self.obj.filterEmails(emails), expected)
+
+    def test_empty_list(self):
+        self.assertEqual(self.obj.filterEmails([]), [])
 
 if __name__ == "__main__":
     unittest.main()
