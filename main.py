@@ -2,7 +2,7 @@ from algorithms.strings import StringUtils
 from algorithms.arrays import ArrayUtils
 from algorithms.dictionaries import DictionaryUtils
 from algorithms.recursion import RecursionUtils
-
+from algorithms.data_processing import DataProcessUtils
 """
 user_input = StringUtils()
 word = input("Enter the word in which you want to count the vowel: ")
@@ -81,6 +81,15 @@ d1 = {'a': 100, 'b': 200, 'c': 300}
 d2 = {'a': 300, 'b': 200, 'd': 400}
 print(merged_dictionary.merge_dictionaries(d1,d2))
 """
+"""
 user_input = StringUtils()
 word = input("Enter the word: ")
 print(user_input.first_non_rep_char(word))
+"""
+user_input = DataProcessUtils()
+json_data = [
+    {"name": "Anil", "age": 21},
+    {"name": "Ravi", "age": 22}
+]
+df = user_input.json_dict_to_csv(json_data, "output.csv")
+print(df)
