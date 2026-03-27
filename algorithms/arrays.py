@@ -84,5 +84,17 @@ class ArrayUtils:
              2) nums[:6] → [1,2,3,4,5,6]
              3) [7,8,9,10] + [1,2,3,4,5,6] → [7,8,9,10,1,2,3,4,5,6] Final Output
     """
+    #Return top 3 frequent numbers.    
+    def most_frequent_members(self, nums: str, top: int) -> list[int]:
+        from collections import Counter
+        try:
+            nums = [int(n.strip()) for n in nums.split(",")]
+            top = int(top)
+        except ValueError:
+            raise ValueError("Enter valid Input.")
+
+        freq = Counter(nums)
+        return [num for num, _ in freq.most_common(top)]
+
 
     

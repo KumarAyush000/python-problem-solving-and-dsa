@@ -121,3 +121,11 @@ try:
 except ValueError as e:
     print("Error: ", e)
 """
+#DAY 18
+user_input = ArrayUtils()
+nums = input("Enter the numbers separated by a comma (,): ")
+top = input("Enter the top n: ")
+try:
+    print(user_input.most_frequent_members(nums, top))
+except ValueError as e:
+    print("Error: ", e)
