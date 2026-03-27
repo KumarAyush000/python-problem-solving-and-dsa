@@ -95,6 +95,15 @@ json_data = [
 df = user_input.json_dict_to_csv(json_data, "output.csv")
 print(df)
 """
+"""
 user_input = StringUtils()
 sentence = input("Enter the sentence: ")
 print(user_input.longest_word(sentence))
+"""
+user_input = ArrayUtils()
+nums = input("Enter the numbers separated by a comma (,): ")
+k = input("Enter the rotation length: ")
+try:
+    print(user_input.rotate_list_slicing(nums, k))
+except ValueError as e:
+    print("Error: ", e)

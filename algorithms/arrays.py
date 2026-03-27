@@ -67,5 +67,22 @@ class ArrayUtils:
                 odd["odd_count"] += 1
                 odd["odd_values"].append(n)
         return even, odd
-            
+    #Rotate list k times.
+    def rotate_list_slicing(self,nums, k):
+        try:
+            nums = [int(n.strip()) for n in nums.split(",")]
+            k = int(k)
+        except ValueError:
+            raise ValueError("Invalid input format.")
+        n = len(nums)
+        k %= n
+        return nums[n-k:] + nums[:n-k] 
+    """
+    Working: Input : [1,2,3,4,5,6,7,8,9,10]
+                     k = 4
+             1) nums[10-4:] → nums[6:] → [7,8,9,10]
+             2) nums[:6] → [1,2,3,4,5,6]
+             3) [7,8,9,10] + [1,2,3,4,5,6] → [7,8,9,10,1,2,3,4,5,6] Final Output
+    """
+
     
