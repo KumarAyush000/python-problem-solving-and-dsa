@@ -17,6 +17,7 @@ class Solution:
             element_freq[n] = element_freq.get(n, 0) + 1
         return element_freq
 """
+"""
 # 3) Filter Valid Emails
 class Solution:
     def filterEmails(self, emails: list[str]) -> list[str]:
@@ -28,4 +29,13 @@ class Solution:
                 valid_emails.append(email)
 
         return valid_emails
+"""
+#Return the record with highest `value`.
+class Solution:
+    def maxValueRecord(self, records: list[dict]) -> dict:
+        if not records:
+            return {}
 
+        return max(records, key=lambda x: x.get('value', float('-inf')))
+    #Time Complexity:  O(n) → the list is scanned once
+    #Space Complexity: O(1) → No extra space used

@@ -1,10 +1,10 @@
 import unittest
 from leet import Solution
 
+"""
 # -------------------------------
 # Tests for removeDuplicates
 # -------------------------------
-"""
 class TestRemoveDuplicates(unittest.TestCase):
 
     def setUp(self):
@@ -48,6 +48,7 @@ class TestCountFrequency(unittest.TestCase):
             self.obj.countFrequency([]),
             {}
         )
+"""
 """
 # -------------------------------
 # Test for filterEmails
@@ -95,6 +96,57 @@ class TestFilterEmails(unittest.TestCase):
 
     def test_empty_list(self):
         self.assertEqual(self.obj.filterEmails([]), [])
+"""
+# -------------------------------
+# Test for maxValueRecord
+# -------------------------------
+class TestMaxValueRecord(unittest.TestCase):
+
+    def setUp(self):
+        self.sol = Solution()
+
+    # Normal case
+    def test_normal_case(self):
+        records = [
+            {"id": 1, "value": 10},
+            {"id": 2, "value": 50},
+            {"id": 3, "value": 30}
+        ]
+        self.assertEqual(self.sol.maxValueRecord(records), {"id": 2, "value": 50})
+
+    # Single element
+    def test_single_record(self):
+        records = [{"id": 1, "value": 100}]
+        self.assertEqual(self.sol.maxValueRecord(records), {"id": 1, "value": 100})
+
+    # Empty list
+    def test_empty_list(self):
+        self.assertEqual(self.sol.maxValueRecord([]), {})
+
+    # Missing 'value' key
+    def test_missing_value_key(self):
+        records = [
+            {"id": 1},
+            {"id": 2, "value": 20}
+        ]
+        self.assertEqual(self.sol.maxValueRecord(records), {"id": 2, "value": 20})
+
+    # Negative values
+    def test_negative_values(self):
+        records = [
+            {"id": 1, "value": -10},
+            {"id": 2, "value": -5}
+        ]
+        self.assertEqual(self.sol.maxValueRecord(records), {"id": 2, "value": -5})
+
+    # Duplicate max values
+    def test_duplicate_max(self):
+        records = [
+            {"id": 1, "value": 50},
+            {"id": 2, "value": 50}
+        ]
+        # max returns first occurrence
+        self.assertEqual(self.sol.maxValueRecord(records), {"id": 1, "value": 50})
 
 if __name__ == "__main__":
     unittest.main()
