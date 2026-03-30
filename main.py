@@ -3,6 +3,7 @@ from algorithms.arrays import ArrayUtils
 from algorithms.dictionaries import DictionaryUtils
 from algorithms.recursion import RecursionUtils
 from algorithms.data_processing import DataProcessUtils
+from algorithms.data_structures import DataStructuresUtils
 """
 #DAY 1
 user_input = StringUtils()
@@ -121,6 +122,7 @@ try:
 except ValueError as e:
     print("Error: ", e)
 """
+"""
 #DAY 18
 user_input = ArrayUtils()
 nums = input("Enter the numbers separated by a comma (,): ")
@@ -129,3 +131,8 @@ try:
     print(user_input.most_frequent_members(nums, top))
 except ValueError as e:
     print("Error: ", e)
+"""
+#DAY 19
+user_input = DataStructuresUtils()
+user_str = input("Enter the sentence: ")
+print(user_input.isValid(user_str))
