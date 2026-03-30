@@ -1,19 +1,10 @@
-class RecursionUtils:
-    #Flatten nested list
-    """
-    def flatten_list(self, matrix):
-        matrix = matrix.split("/")
-        matrix = [[element.strip() for element in row.split(",")] for row in matrix]
-        flat_list = []
-        for row in matrix:
-            flat_list.extend(row)
-        return flat_list
-    """
-    # even smaller code: 
-    def flatten_list(self, matrix):
-        return [
-                element.strip()
-                for row in matrix.split("/")
-                for element in row.split(",")
-               ]
-    
+def factorial(n: int) -> int:
+    if n < 0:
+        raise ValueError("Factorial is not defined for negative numbers")
+    if n in (0, 1):
+        return 1
+    return n * factorial(n - 1)
+
+
+if __name__ == "__main__":
+    print(factorial(5))
